@@ -6,7 +6,7 @@ RUN apk add --no-cache bash
 RUN /bin/bash /go/genCert.sh
 
 
-FROM haproxy:2.8-alpine3.18
+FROM haproxy:2.9-alpine3.18
 MAINTAINER Khulnasoft Inc
 LABEL kengine.role=system
 
